@@ -1,0 +1,8 @@
+node_modules
+dist
+
+.nuxt
+.eslintcache
+
+package-lock.json
+

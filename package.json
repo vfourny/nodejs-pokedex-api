@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-pokedex-api",
+  "version": "1.0.0",
+  "description": "Nous allons tâcher de créer une API permettant d'effectuer des opérations CRUD sur les pokémons. Ce projet sera réalisé avec Express pour la gestion des routes et avec une base de donnée NoSQL.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vfourny/nodejs-pokedex-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vfourny/nodejs-pokedex-api/issues"
+  },
+  "homepage": "https://github.com/vfourny/nodejs-pokedex-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
